@@ -74,12 +74,99 @@ img {
 
 @media screen and (max-width: 576px){
 
-        .left, .right, .central{
-          float: none;
-        }
 
-      #lezioni, #why{
-        background-color: rgba(255, 255, 0, 0.158);
-      }
+  #lezioni .row > .left, #lezioni .row > .right{
+  float: none;
+  }
+
+  #steps .row > .left, #steps .row > .right, #steps .row > .central{
+    float: none;
+    margin-left: 120px;
+    }
+
+    #steps h1{
+      margin-left: 180px;
+    }
+
+  #lezioni, #why{
+   background-color: rgba(255, 255, 0, 0.158);
+  }
+
+  h1{
+    text-align: left;
+    margin-left: 120px;
+  }
+
+  #lezioni .row{
+    margin-left: 30px;
+  }
+
+  #why .row > .first, #why .row > .second, #why .row > .third{
+    width: 56%;
+  }
+
+  #why h1{
+    margin-left: 170px;
+  }
+
+}
+
+@media screen and (min-width: 577px){
+
+  #lezioni .row > .left, #lezioni .row > .right{
+    float: right;
+    }
+
+    #lezioni{
+      background-color: rgba(204, 204, 204, 0.418);
+      border-radius: 30px;
+    }
+
+    #steps .row > .left, #steps .row > .right{
+      background-color:rgba(255, 255, 0, 0.151) ;
+      border-radius: 20px;
+      position: absolute;
+      bottom: 0;
+    }
+
+    #steps .row > .right{
+      bottom: 0;
+      right: 0;
+    }
+
+    #steps .row {
+      height: 634px;
+      position: relative;
+    }
+     
+    #steps .row > .central{
+      position: absolute;
+      left: 333px;
+      background-color:rgba(255, 255, 0, 0.151) ;
+      border-radius: 20px;
+    }
+
+    #steps .row{
+      background-color: white;
+    }
+
+    #why .row > .first, #why .row > .second, #why .row > .third{
+      background-color: rgba(51, 51, 51, 0.13);
+      float: left;
+      width: 33.3%;
+      height: 420px;
+      border-top: 2px solid black;
+    }
+
+    #why .row{
+      background-color: white;
+    }
+
+
+
+
+  
+
+
 
 }
